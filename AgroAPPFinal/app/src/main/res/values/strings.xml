@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">AGROAPP</string>
+    <string name="hint_nombre">Nombre:</string>
+    <string name="hint_telefono">Telefono:</string>
+    <string name="hint_correo_electronico">Correo electronico:</string>
+    <string name="btn_guarda">Guardar registro</string>
+    <string name="menu_nuevo">Nuevo registro</string>
+
+
+
+    <!-- Vista login.xml -->
+    <string name="hint_loginUsuario">Usuario</string>
+    <string name="hint_loginClave">Clave</string>
+
+
+
+    <!-- Textos y botones generales -->
+    <string name="btnRegresar">Regresar</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="btnFinalizar">Finalizar</string>
+    <string name="btnAgregar">Agregar</string>
+    <string name="btnIngresar">Ingresar</string>
+    <string name="btnRegistrar">Registrarse</string>
+
+    <!-- Vista registrar2.xml -->
+    <string name="hint_apellido">Apellido</string>
+    <string name="hint_direccion">Dirección</string>
+    <string name="hint_ubicacion">Ubicación</string>
+    <string name="hint_identificacion">Identificación</string>
+    <string name="hint_fechaNacimiento">Fecha de nacimiento</string>
+
+    <!-- Vista registrar3.xml -->
+    <string name="hint_email">Email</string>
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_clave">Clave</string>
+
+    <!-- Vista nuevo_producto.xml -->
+    <string name="hint_nombreProducto">Nombre:</string>
+    <string name="hint_categoriaProducto">Categoria:</string>
+    <string name="hint_caracteristicasProducto">Caracteristicas:</string>
+    <string name="hint_precioProducto">Precio:</string>
+
+
+    <string name="hint_nombreProducto1">Nombre:</string>
+    <string name="hint_categoriaProducto1">Categoria:</string>
+    <string name="hint_descripcionProducto1">DescripciÃ³n:</string>
+    <string name="hint_precioProducto1">Precio:</string>
+    <string name="switch_disponibilidadProducto1">Disponibilidad</string>
+    <string name="hint_stockProducto1">Stock:</string>
+    <string name="btn_agregarProducto">Agregar</string>
+    <string name="txt_agregarProductoTitulo">Agregar Producto</string>
+
+
+
+</resources>

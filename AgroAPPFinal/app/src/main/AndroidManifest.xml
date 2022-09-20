@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cdp.Agro"
+    android:versionCode="2"
+    android:versionName="1.1"
+    >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.cdp.Agro.MainActivity"
+            android:parentActivityName="com.cdp.Agro.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cdp.Agro.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.cdp.Agro.NuevoActivity"
+            android:parentActivityName="com.cdp.Agro.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cdp.Agro.MainActivity" />
+        </activity>
+        <activity android:name="com.cdp.Agro.Activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.cdp.Agro.VerActivity"
+            android:parentActivityName="com.cdp.Agro.MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cdp.Agro.MainActivity" />
+        </activity>
+
+
+        <activity
+            android:name="com.cdp.Agro.Activity.ClientePantallaActivity"
+            android:parentActivityName="com.cdp.Agro.MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cdp.Agro.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.cdp.Agro.Activity.ProveedorPantallaActivity"
+            android:parentActivityName="com.cdp.Agro.MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cdp.Agro.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.cdp.Agro.Activity.UserSelectActivity"
+            android:parentActivityName="com.cdp.Agro.MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cdp.Agro.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.cdp.Agro.EditarActivity"
+            android:parentActivityName="com.cdp.Agro.MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cdp.Agro.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.cdp.Agro.PersonaActivity"
+            android:parentActivityName="com.cdp.Agro.MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cdp.Agro.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.cdp.Agro.Activity.EditarProductoActivity"
+            android:parentActivityName="com.cdp.Agro.MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cdp.Agro.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.cdp.Agro.Activity.ListarProductosActivity"
+            android:parentActivityName="com.cdp.Agro.MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cdp.Agro.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.cdp.Agro.Activity.ListarPedidosActivity"
+            android:parentActivityName="com.cdp.Agro.MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cdp.Agro.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.cdp.Agro.Activity.VerProductoActivity"
+            android:parentActivityName="com.cdp.Agro.MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cdp.Agro.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.cdp.Agro.Activity.EditarPerfilActivity"
+            android:parentActivityName="com.cdp.Agro.MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cdp.Agro.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.cdp.Agro.Activity.EditarPerfilProveedorActivity"
+            android:parentActivityName="com.cdp.Agro.MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cdp.Agro.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.cdp.Agro.Activity.NuevoProductoActivity"
+            android:parentActivityName="com.cdp.Agro.MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cdp.Agro.MainActivity" />
+        </activity>
+
+
+
+    </application>
+
+</manifest>
